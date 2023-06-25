@@ -1,0 +1,5 @@
+1, phanith1, M, 36
+2, phanith2, M, 72
+3, phanith3, M, 108
+4, phanith4, M, 144
+5, phanith5, M, 180

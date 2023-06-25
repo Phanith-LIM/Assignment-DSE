@@ -1,0 +1,9 @@
+CourseId,CourseName,Credit,Type,DeptID
+1,DSA,4,Compulsory,4
+3,Math,5,Elective,5
+8,CPP,3,Elective,2
+9,C,6,Elective,2
+11,Flutter,3,Elective,1
+13,Java,3,Compulsory,3
+14,HTML,2,Compulsory,1
+23,CSS,3,Elective,4

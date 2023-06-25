@@ -1,0 +1,16 @@
+requirements
+     python -m pip install -U prettytable
+     python3 -m pip install simple-term-menu
+Note: It's working on terminal console, It need to allow terminal in output console pycham.
+step1: open Edit Run Configuration
+step2: check Execution/Emulate terminal in output console
+
+Problem: No value for $TERM and no -T specified
+Solution: export TERM=xterm
+    tput setaf 2
+    tput -T putty setaf 2
+ or
+    tput setaf 2
+    tput -T linux setaf 2
+
+https://unix.stackexchange.com/questions/416047/linux-tput-no-value-for-term-and-no-t-specified

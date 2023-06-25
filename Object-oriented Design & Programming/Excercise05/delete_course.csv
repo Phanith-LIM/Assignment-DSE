@@ -1,0 +1,8 @@
+CourseId,CourseName,Credit,Type,DeptID
+2,OODP,3,Elective,4
+4,Physics,4,Compulsory,5
+12,Java,3,Compulsory,1
+15,sdf,3,Compulsory,4
+6,Chemistry,4,Compulsory,1
+7,English,4,Compulsory,2
+10,Database,3,Compulsory,2
