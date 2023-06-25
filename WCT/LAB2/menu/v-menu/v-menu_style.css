@@ -1,0 +1,30 @@
+.container {
+    background-color: #E7E9EB;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    width: 200px;
+    font-family: JetBrains Mono;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: JetBrains Mono;
+    text-align: center;
+    margin: 8px 0 8px 0;
+}
+a {
+    display: inline-block;
+    color: black;
+    text-align: left;
+    padding: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(25, 153, 25);
+    color: white;
+    opacity: 1;
+}

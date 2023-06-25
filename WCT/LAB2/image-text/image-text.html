@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Text</title>
+</head>
+<style>
+    img {
+        width:100%;
+    }
+    div.container {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    div.text-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    div.top-left {
+        position: absolute;
+        left: 8px;
+        top: 8px;
+    }
+    div.top-right {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+    }
+    div.bottom-left {
+        position: absolute;
+        left: 8px;
+        bottom: 8px;
+    }
+    div.bottom-right {
+        position: absolute;
+        right: 8px;
+        bottom: 8px;
+    }
+</style>
+<body>
+    <div style="background-color: #f2f2f2; padding: 5px;">
+        <text>Name : Lim Phanith</text>
+        </br>
+        <text>Class :  DSE-G1Y2S2</text>
+    </div>
+    <h2>Image Text</h2>
+    <h4>How to place text over a image</h4>
+    <div class="container">
+        <img src="https://www.w3schools.com/howto/img_snow_wide.jpg">
+        <div class="text-center">Center</div>
+        <div class="top-left">Top Left</div>
+        <div class="top-right">Top Right</div>
+        <div class="bottom-left">Bottom Left</div>
+        <div class="bottom-right">Bottom Right</div>
+    </div>
+</body>
+</html>

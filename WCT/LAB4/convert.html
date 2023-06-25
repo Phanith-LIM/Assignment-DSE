@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="p-5" style="background-color: rgb(80, 121, 106);">
+        <h5 class="text-uppercase text-sm-start font-monospace font-bold"><mark class="bg-info bg-gradient">html css & javascript</mark></h5>
+        <h1 class="text-uppercase text-start text-white">Temperature Conversion</h1>
+        <div class="bg-white rounded-3 py-1 mx-auto" style="width: 60%;">
+          <div class="row p-5">
+              <div class="col">
+                  <p class="mb-1">Celsius</p>
+                  <input type="number" id="input1" class="form-control" placeholder="Celsius" aria-describedby="basic-addon1">
+              </div>
+          
+              <div class="col">
+                  <p class="mb-1 ">Fahrenheit</p>
+                  <input type="number" id="input2" class="form-control" placeholder="Fahrenheit" aria-describedby="basic-addon1" readonly>
+              </div>
+          </div>
+        </div>  
+    </div>
+    <script>
+      var input1 = document.getElementById("input1");
+      var input2 = document.getElementById("input2");
+      input1.addEventListener("input", onConvert);
+      function onConvert() {
+        var celsius = input1.value;
+        
+        if (celsius === "") {
+          input2.value = ""; // Clear input2
+        } else {
+          var fahrenheit = (parseFloat(celsius) * 9/5) + 32;
+          input2.value = fahrenheit.toFixed(2);
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

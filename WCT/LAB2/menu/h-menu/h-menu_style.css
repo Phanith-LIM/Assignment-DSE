@@ -1,0 +1,27 @@
+
+
+.container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 8px;
+    font-family: JetBrains Mono;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: JetBrains Mono;
+    text-align: center;
+    margin: 8px 0 8px 0;
+}
+a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: grey;
+    opacity: 1;
+}
